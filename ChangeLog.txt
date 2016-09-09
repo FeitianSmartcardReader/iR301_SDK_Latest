@@ -1,0 +1,100 @@
+------------------iR301-U Software Developer's Kit --------------------
+
+Notice:
+This SDK can use for below devices:
+iR301-U  - 30-PIN DOCK READER
+iR301-UL - lightning DOCK READER
+iR301-UC23 - iPad mini CASE READER
+iR301-UC24 - iPad 2/3 CASE READER
+iR301-UC29 - iPad Air CASE READER
+iR301-UC43 - iPad Air 2 CASE READER
+bR301    -  Bluetooth smart card reader
+
+------------------ Change History -------------------------------------------
+2016/02/24
+	Update android demo code
+2016/02/17
+	Update upgrade tool, works for windows 10, windows 8 and 8.1
+2016/02/16
+	Update iOS SDK, upload to github
+2015/06/12
+	Update iOS SDK, update lib, the new lib support new firmware 2.40
+2014/10/08
+	Update iOS SDK
+2014/9/3
+	Add SCardReconnect API
+2014/8/15
+	Updated iOS SDK, fixed bugs in iOS SDK. Add bR301 support. More information, please check change log which in iOS SDK floder
+	Updated Android SDK, add release library into SDK
+	Add TQM(Terminal Quality Management) certificate into SDK
+	Update tools of iR301, more information, please check change log in Tools floder
+2014/7/1
+	Add nor-pcsc lite API into SDK, please check iOS SDK folder
+2014/6/29
+	Fixed bugs in Update tool
+2014/6/4
+	Update iOS Library and demo application(Support background mode).
+	Update Android Library and demo application(Support get serial number and write/read flash function)
+2014/4/10
+	Update iOS SDK, fixed bugs on iOS 7.0+
+2014/04/01
+	Update iOS SDK
+2014/02/10
+	Upload update tool in SDK with user manual
+	Update iOS library in SDK, add support for running in background 
+2014/01/12
+	Fixed bugs in iOS SDK(1. Add get library version in SDK 2. Resolved AES_decryp API conflict)
+2013/11/06
+	Upgrade Android sample code in SDK
+	Add DUKPT android sample code to SDK
+	Add DUKPT iOS sample code to SDK
+	Update Android developer guide in SDK
+	Change MAC OS X install packging in SDK
+	Add USBViewer tool in SDK which can check reader type
+2013/08/28
+Updated iOS static library - fixed below bug:
+
+	Support multi-thread
+	Support application running in background
+	Support extend APDU
+2013/04/21
+	Add developer guide for iOS/PC/Android
+	Add CE/FCC/RoHS/EMV Level 1 in SDK
+	Updated iOS static library - fixed some bugs
+	Customer can thourgh OEM firmware to support DUKPT
+2013/03/24
+Tools:
+	Add inject key tool to SDK. (DUKPT concept,more information, please follow developer manual)
+iOS:
+	Add DUKPT function to SDK.(Needs OEM firmware)
+Android:
+	Add dukpt function to SDK. (Needs OEM firmware)
+	
+2013/02/20:
+Added floder:
+	FEITIAN iR301-U provided 255byets space to customer, we added read/write flash tool and provide source code for customer, 
+	they can write and read flash on windows PC or iOS sdk.
+Android:
+	Fixed bugs
+	The library supported SAMSUNG tablet and Phone, the kernel system must be 4.0 above
+	The demo application only for android tablet, the library can use Phone.
+	The customer needs design UI for Phone.
+iOS:
+	Updated android library, more detail please see android floder - readme file
+	Update iOS library and sample code, more detail please see iOS floder - reademe file
+	
+2012/10/11:
+	Fixed some bugs
+2012/08/23:
+For iOS DK:
+	 Add SCardGetStatusChange funciton
+	 Add 256bytes use space and provide API for call(FtWriteFlash/FtReadFlash)
+	 Add to get serial number function (FtGetSerialNum)
+       	 Add Developer Guide(Please follow FT_iR301-U_SDK_V1.2_120823\iOS SDK\Doc\iR301-U_Developer_Guide_E.pdf)
+
+2012-07-25
+For iOS:
+    Add get hardware serial number funciton
+    Support get card status funciton
+
+

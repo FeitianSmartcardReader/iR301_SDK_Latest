@@ -1,0 +1,232 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.00"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="726dp"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BOpen"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:text="Open" />
+
+                <Button
+                    android:id="@+id/BClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Close" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BPower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.93"
+                    android:text="PowerOn" />
+
+                <Button
+                    android:id="@+id/BPowerOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.64"
+                    android:text="PowerOff" />
+
+                <Button
+                    android:id="@+id/BGetStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.93"
+                    android:text="GetStatus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="501dp"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/BCheckT0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.93"
+                    android:text="T=0" />
+
+                <CheckBox
+                    android:id="@+id/BCheckT1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.93"
+                    android:text="T=1" />
+
+                <Button
+                    android:id="@+id/BGetProtocol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GetProtocol" />
+
+                <Button
+                    android:id="@+id/BGetAtr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.42"
+                    android:text="GetAtr" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BTransmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transmit" />
+
+                <EditText
+                    android:id="@+id/EApdu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="在这里输入APDU"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BWriteFlash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.93"
+                    android:text="WriteFlash" />
+
+                <Button
+                    android:id="@+id/BReadFlash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.18"
+                    android:text="ReadFlash" />
+
+                <Button
+                    android:id="@+id/BGetSerialNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.18"
+                    android:text="GetSerialNum" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/EWriteFlash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="258dp"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/BClear"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="ClearTheLog" />
+
+                <Button
+                    android:id="@+id/BExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ExitProgram" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="308dp"
+                    android:gravity="top"
+                    android:text="Log" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
