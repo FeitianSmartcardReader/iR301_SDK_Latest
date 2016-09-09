@@ -1,0 +1,6 @@
++++++++++++++ 2014-05-12 +++++++++++++
+App name: USBView.exe 
+Version: V1.0.1
+Author: 
+Changes: Support iR301-UC-B and iR301-UC-LT-B
+++++++++++++++++++++++++++++++++++++++

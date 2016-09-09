@@ -1,0 +1,9 @@
+2014/7/17
+	Update upgrade tool
+2014/7/14
+	Add UID tool, this tool through seeds to generate UID, this UID using to secure update firmware
+2014/6/29
+	Fixed bugs in update tool, support windows 8
+2014/6/4
+	Upgrade firmware update tool
+	Upgrade USB viewer tool, support iR301-UC-B and iR301-UC-LT-B
