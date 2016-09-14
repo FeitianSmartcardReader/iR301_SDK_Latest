@@ -1,18 +1,14 @@
+Update Step:
+1. Open FT_iR301_Update_Tool.exe file by administrator
+2. Connect reader, after re-plug reader
+3. Connect reader again and choose right BIN 
+4. Start updating
+
 Change log:
+2016/09/14
+	Solve compatible issue with iOS 10
 2014/7/17
 	1.2.3 Fixed bug, now the tool support upgrade without uninstall others PCSC reader driver
 2014/6/29
 	1.2.2 Now this tool support Windows 8
-
-Notice:
-When you run update tool, please do rename at first.
-
-To check VID, please open your device manager, choose reader property and to see what VID is, after then, back to config file and do rename config.ini_VID_* to config.ini".
-
-Default config.ini VID is 0619
-
-More information, please follow "iR301 update tool user manual.pdf"
-
-This tool only support windows XP and Windows 7(32bits and 64bits)
-
 
