@@ -1,3 +1,16 @@
+iR301 Android SDK
+===============
+A simple Android app that can:
+
+1. Install demo apk into your device
+2. Connect to reader through OTG cable to your device
+3. Do connect to reader and start using it
+
+If you are interesting using full compatible with PC/SC, then please using below code:
+
+* Project homepage:
+  https://github.com/FeitianSmartcardReader/Feitian_Android_PCSC_SDK
+
 ------------- iR301-U Software Developer's Kit -------------
 
 ------------------ Folder Content List ------------------
