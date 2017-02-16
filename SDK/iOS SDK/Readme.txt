@@ -3,7 +3,7 @@
 ------------------ Folder Content List ------------------
 
 iOS SDK:
-	https://github.com/FeitianSmartcardReader/bR301_iOS_SDK_RELEASE
+	https://github.com/FeitianSmartcardReader/bR301_SDK_Latest/tree/master/SDK/iOS
 
 iOS SDK source code:
 	Under GPL 2.0 standard, we publish our source code for iOS platform, if you are interesting using source code, youc can download it from github:
