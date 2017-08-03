@@ -18,6 +18,11 @@ Folder Content List
     Library - library for true device(the true device must be support OTG)
 
     Change list:
+	2017/8/3
+		Update jar lib to 2.0.7, now it support iR301,bR301,bR301BLE,R301E,bR500
+	2017/8/1
+		Update jar lib, add R301E support. 
+		Add R301_xx_xx.jar and iR301_x_xx.jar, R301_xx_xx support R301E and bR301BLE. iR301_x_xx support R301M, iR301 and bR301.
     2017/1/9
 	Update readme
     2014/6/4

@@ -1,8 +1,2 @@
-20170801:
-	Update jar, fix bug when support R301E PC USB reader with OTG
-
-
-Notice:
-R301_v2.0.6_x - Support R301E and bR301FC4(OTG) with USB port
-iR301_v2.0.6_x - Support iR301,R301M and bR301 with OTG cable
-
+20170803:
+	Update jar to 2.0.7, to make it easy to management, now the jar support R301E, bR301FC4,bR500,iR301,bR301
