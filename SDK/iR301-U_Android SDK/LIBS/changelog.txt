@@ -1,2 +1,4 @@
+20170807:
+	Fix a bug when power on Bluetooth reader.
 20170803:
 	Update jar to 2.0.7, to make it easy to management, now the jar support R301E, bR301FC4,bR500,iR301,bR301
