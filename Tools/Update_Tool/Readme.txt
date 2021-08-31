@@ -5,6 +5,8 @@ Update Step:
 4. Start updating
 
 Change log:
+2021/08/31
+	Improve the charging compatibility with iOS with iR301-UC-LT, only the firmware with 1.xx and 2.xx can be update.
 2020/01/19
 	Solve the compatible issue with iOS 13.x on iPad 2018
 	Please notice, the 2.51 firmware only works for the reader which firmware is 1.xx and 2.xx. It won’t work for reader which firmware is 4.30, if your reader is 4.30+, then there is no problem with compatible issue with iOS 13.x on iPad 2018.
