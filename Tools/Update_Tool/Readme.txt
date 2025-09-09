@@ -5,6 +5,12 @@ Update Step:
 4. Start updating
 
 Change log:
+2025/09/02
+	FW v8.02 update for iR301-UD-C released, this version fixes issue which will cause unresponsive in processing packet via iAP2 protocol.
+2023/09/14
+	FW v8.01 update for iR301-UD-C released, this version update according to Apple MFi certificate requirement.
+2022/10/28
+	FW v6.21 for iR301-UD-LT released, this version compatible with Apple's both C12 and C78 Lightning connector.
 2021/08/31
 	Improve the charging compatibility with iOS with iR301-UC-LT, only the firmware with 1.xx and 2.xx can be update.
 2020/01/19
